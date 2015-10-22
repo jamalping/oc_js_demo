@@ -15,6 +15,8 @@
 		002BC7101BD8E27700F87DA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002BC70E1BD8E27700F87DA6 /* LaunchScreen.storyboard */; };
 		002BC71B1BD8E27700F87DA6 /* oc_js_jamalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002BC71A1BD8E27700F87DA6 /* oc_js_jamalTests.m */; };
 		002BC7261BD8E27700F87DA6 /* oc_js_jamalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002BC7251BD8E27700F87DA6 /* oc_js_jamalUITests.m */; };
+		002BC7341BD8E28C00F87DA6 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002BC7331BD8E28C00F87DA6 /* JavaScriptCore.framework */; };
+		00DFC09F1BD8E817000C8444 /* SecondeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DFC09E1BD8E817000C8444 /* SecondeViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		002BC7211BD8E27700F87DA6 /* oc-js-jamalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "oc-js-jamalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		002BC7251BD8E27700F87DA6 /* oc_js_jamalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oc_js_jamalUITests.m; sourceTree = "<group>"; };
 		002BC7271BD8E27700F87DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002BC7331BD8E28C00F87DA6 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		00DFC09D1BD8E817000C8444 /* SecondeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondeViewController.h; sourceTree = "<group>"; };
+		00DFC09E1BD8E817000C8444 /* SecondeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002BC7341BD8E28C00F87DA6 /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		002BC6F41BD8E27700F87DA6 = {
 			isa = PBXGroup;
 			children = (
+				002BC7331BD8E28C00F87DA6 /* JavaScriptCore.framework */,
 				002BC6FF1BD8E27700F87DA6 /* oc-js-jamal */,
 				002BC7191BD8E27700F87DA6 /* oc-js-jamalTests */,
 				002BC7241BD8E27700F87DA6 /* oc-js-jamalUITests */,
@@ -105,6 +112,8 @@
 				002BC7041BD8E27700F87DA6 /* AppDelegate.m */,
 				002BC7061BD8E27700F87DA6 /* ViewController.h */,
 				002BC7071BD8E27700F87DA6 /* ViewController.m */,
+				00DFC09D1BD8E817000C8444 /* SecondeViewController.h */,
+				00DFC09E1BD8E817000C8444 /* SecondeViewController.m */,
 				002BC7091BD8E27700F87DA6 /* Main.storyboard */,
 				002BC70C1BD8E27700F87DA6 /* Assets.xcassets */,
 				002BC70E1BD8E27700F87DA6 /* LaunchScreen.storyboard */,
@@ -272,6 +281,7 @@
 			files = (
 				002BC7081BD8E27700F87DA6 /* ViewController.m in Sources */,
 				002BC7051BD8E27700F87DA6 /* AppDelegate.m in Sources */,
+				00DFC09F1BD8E817000C8444 /* SecondeViewController.m in Sources */,
 				002BC7021BD8E27700F87DA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +508,7 @@
 				002BC72C1BD8E27700F87DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		002BC72D1BD8E27700F87DA6 /* Build configuration list for PBXNativeTarget "oc-js-jamalTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				002BC72F1BD8E27700F87DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		002BC7301BD8E27700F87DA6 /* Build configuration list for PBXNativeTarget "oc-js-jamalUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				002BC7321BD8E27700F87DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
